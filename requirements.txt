@@ -1,6 +1,7 @@
 streamlit                
 streamlit_folium          
-streamlit-option-menu     
+streamlit-option-menu 
+streamlit-aggrid    
 pandas                    
 folium                    
 haversine                 
