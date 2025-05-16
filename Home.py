@@ -23,19 +23,29 @@ st.write("# Curry Company Growth Dashboard")
 
 st.markdown(
     """
+    <p style='color:white;'>
     The Growth Dashboard was built to monitor growth metrics for Delivery Personnel and Restaurants.
-    
-    ### How to use this Growth Dashboard?
-    
-    - Business View:
-        - Management View: General behavior metrics.
-        - Tactical View: Weekly growth indicators.
-        - Geographic View: Geolocation insights.
-    
-    - Delivery View:
-        - Monitoring weekly growth indicators.
-    
-    - Restaurant View:
-        - Weekly growth indicators for restaurants.
-"""
+    </p>
+    <h3 style='color:white;'>How to use this Growth Dashboard?</h3>
+    <ul style='color:white;'>
+        <li><b>Business View:</b>
+            <ul>
+                <li>Management View: General behavior metrics.</li>
+                <li>Tactical View: Weekly growth indicators.</li>
+                <li>Geographic View: Geolocation insights.</li>
+            </ul>
+        </li>
+        <li><b>Delivery View:</b>
+            <ul>
+                <li>Monitoring weekly growth indicators.</li>
+            </ul>
+        </li>
+        <li><b>Restaurant View:</b>
+            <ul>
+                <li>Weekly growth indicators for restaurants.</li>
+            </ul>
+        </li>
+    </ul>
+    """,
+    unsafe_allow_html=True
 )
